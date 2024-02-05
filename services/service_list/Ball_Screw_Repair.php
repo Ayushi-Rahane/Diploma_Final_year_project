@@ -147,6 +147,11 @@
   </div>
   <div class="about-us-item">m_rahane@yahoo.com</div>
  </div>
+ 
+    <!--Chat Bot-->
+    
+    <!--Chat Bot-->
+    <?php include('Diploma_Final_year_project\user-view\chatbot.php') ?>
     </body>
  
     <script src="..\..\script.js">
