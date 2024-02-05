@@ -50,23 +50,23 @@
                 <li class="services">
                    <a class="menu-item">Our Services</a>
                   <ul class="service-drop-down-menu">
-                   <li class="service-list"><a class="service-list-link special-link" href="spindle_repair.html">Spindle Repair</a></li>
-                   <li class="service-list"><a class="service-list-link special-link" href="Ball_Screw_Repair.html"> Ball Screw Repair</a></li>
-                   <li class="service-list"><a class="service-list-link special-link" href="Servo_Motors_and_Drive_Repair.html">Servo Motors and Drive Repair</a></li>
-                   <li class="service-list "><a class="service-list-link special-link" href="cnc_machine_prevention_maintenance.html">CNC Machine Preventive Maintenance</a></li>
-                   <li class="service-list"><a class="service-list-link special-link" href="cnc_machine-breakdown-maintenance.html">CNC Machine Breakdown Maintenance</a></li>
-                   <li class="service-list"><a class="service-list-link special-link" href="spindle_repair.html">Retrofitting of CNC Machine</a></li>
+                   <li class="service-list"><a class="service-list-link special-link" href="spindle_repair.php">Spindle Repair</a></li>
+                   <li class="service-list"><a class="service-list-link special-link" href="Ball_Screw_Repair.php"> Ball Screw Repair</a></li>
+                   <li class="service-list"><a class="service-list-link special-link" href="Servo_Motors_and_Drive_Repair.php">Servo Motors and Drive Repair</a></li>
+                   <li class="service-list "><a class="service-list-link special-link" href="cnc_machine_prevention_maintenance.php">CNC Machine Preventive Maintenance</a></li>
+                   <li class="service-list"><a class="service-list-link special-link" href="cnc_machine-breakdown-maintenance.php">CNC Machine Breakdown Maintenance</a></li>
+                   <li class="service-list"><a class="service-list-link special-link" href="spindle_repair.php">Retrofitting of CNC Machine</a></li>
                   </ul>
                </li>
                <li class="products">
                  <a class="menu-item">Our Products</a>
                  <ul class="product-drop-down-menu">
-                   <li class="product-list"><a class="special-link" href="..\..\products/cnc_drilling_and_routing_machine.html">CNC Drilling and Routing Machine</a></li>
-                   <li class="product-list"><a class="special-link" href="..\..\products/spindles.html">Spindles</a></li>
+                   <li class="product-list"><a class="special-link" href="..\..\products/cnc_drilling_and_routing_machine.php">CNC Drilling and Routing Machine</a></li>
+                   <li class="product-list"><a class="special-link" href="..\..\products/spindles.php">Spindles</a></li>
                    
-                   <li class="product-list"><a class="special-link" href="..\..\products/toolstation.html">Tool Station</a></li>
-                   <li class="product-list"><a class="special-link" href="..\..\products/Servo_Motors_and_Driver.html">Servo Motors and Drives</a></li>
-                   <li class="product-list"><a class="special-link" href="..\..\products/Linear_Guide.html">Linear Guide</a></li>
+                   <li class="product-list"><a class="special-link" href="..\..\products/toolstation.php">Tool Station</a></li>
+                   <li class="product-list"><a class="special-link" href="..\..\products/Servo_Motors_and_Driver.php">Servo Motors and Drives</a></li>
+                   <li class="product-list"><a class="special-link" href="..\..\products/Linear_Guide.php">Linear Guide</a></li>
                   </ul>
                </li>  
                 <li><a href="..\..\index.php"  onclick="smoothScroll('contact-us')" class="menu-item">Contact Us</a></li> 
@@ -135,25 +135,27 @@
     <div class="about-us-service-product">
       <div>
         <span class="about-us-content-title">Services:</span> <br>
-        <li class="about-us-item"><a href="spindle_repair.html" class="about-us-item">Spindle Repair</a></li>
-        <li class="about-us-item"><a href="Ball_Screw_Repair.html" class="about-us-item">Ball Screw Repair</a></li>
-        <li class="about-us-item"><a href="Servo_Motors_and_Drive_Repair.html" class="about-us-item">Servo Motors and Drive Repair</a></li>
-        <li class="about-us-item"><a href="cnc_machine_prevention_maintenance.html" class="about-us-item" >CNC Machine Preventive Maintenance</a></li>
-        <li class="about-us-item"><a href="cnc_machine-breakdown-maintenance.html" class="about-us-item">CNC Machine Breakdown Maintenance</a></li>
-        <li class="about-us-item"><a href="retrofitting_of_cnc_machine.html" class="about-us-item">Retrofitting of CNC Machine</a></li>
+        <li class="about-us-item"><a href="spindle_repair.php" class="about-us-item">Spindle Repair</a></li>
+        <li class="about-us-item"><a href="Ball_Screw_Repair.php" class="about-us-item">Ball Screw Repair</a></li>
+        <li class="about-us-item"><a href="Servo_Motors_and_Drive_Repair.php" class="about-us-item">Servo Motors and Drive Repair</a></li>
+        <li class="about-us-item"><a href="cnc_machine_prevention_maintenance.php" class="about-us-item" >CNC Machine Preventive Maintenance</a></li>
+        <li class="about-us-item"><a href="cnc_machine-breakdown-maintenance.php" class="about-us-item">CNC Machine Breakdown Maintenance</a></li>
+        <li class="about-us-item"><a href="retrofitting_of_cnc_machine.php" class="about-us-item">Retrofitting of CNC Machine</a></li>
       </div>
      
       <div class="about-us-product">
         <span class="about-us-content-title">Product</span>
-        <li class="about-us-item"><a href="../../products/cnc_drilling_and_routing_machine.html" class="about-us-item">CNC Drilling and Routing Machine</a></li>
-                   <li class="about-us-item" ><a href="../../products/spindles.html" class="about-us-item">Spindles</a></li>
-                   <li class="about-us-item"><a href="../../products/toolstation.html" class="about-us-item">Tool Station</a></li>
-                   <li class="about-us-item"><a href="../../products/Servo_Motors_and_Driver.html" class="about-us-item">Servo Motors and Drives</a></li>
+        <li class="about-us-item"><a href="../../products/cnc_drilling_and_routing_machine.php" class="about-us-item">CNC Drilling and Routing Machine</a></li>
+                   <li class="about-us-item" ><a href="../../products/spindles.php" class="about-us-item">Spindles</a></li>
+                   <li class="about-us-item"><a href="../../products/toolstation.php" class="about-us-item">Tool Station</a></li>
+                   <li class="about-us-item"><a href="../../products/Servo_Motors_and_Driver.php" class="about-us-item">Servo Motors and Drives</a></li>
           
       </div>
     </div>
     <div class="about-us-item">m_rahane@yahoo.com</div>
    </div>
+    <!--Chat Bot-->
+    <?php include('Diploma_Final_year_project\user-view\chatbot.php') ?>
     </body>
  
     <script src="..\..\script.js">
