@@ -1,4 +1,4 @@
-//priyanka
+
 //Hide Header when menu is clicked
 function hide_header(obj){
   const header = document.querySelector(".header");
