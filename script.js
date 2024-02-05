@@ -259,6 +259,14 @@ const generateResponse = () => {
     {keywords:["enquiry","enquiry form"],response:"Enquiry gives information, clarification, or details about Concept N Controls, Visit Enquiry form to know more.."},
     
     {keywords:["price","prices"],response:" Visit 'Our Products' to know more.."},
+    {keywords:["machine","machinery","Machines"],response:`We offer Preventive Maintenance of following Machines:
+<br>1. CNC DYNAMOTION
+<br>2. CNC PLURITEC GIGA
+<br> 3. CNC BEAUTIFUL
+<br>4. CNC BETTER
+<br>5. CNC LENZ
+<br>6. CNC SOGOTEC
+<br>7. CNC KEIWAI`},
 
    
 {keywords:["location"],response:" Office 1: SHREE APARTMENT, NEHRU GARDEN, LOKRUCHINAGAR, RAHATA, DIST. AHMEDNAGAR-423107;<br> Office 2:4311, STREET NO. 9, AJITNAGAR, GANDHINAGAR, DELHI-110031"},
