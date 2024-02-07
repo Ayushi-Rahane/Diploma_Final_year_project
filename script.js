@@ -7,7 +7,6 @@ function hide_header(obj){
   nav.classList.add("nav-after-scroll");
 }
 //Home-page slideshow
-
 var front_img = ["front-img/1.png","front-img/2.png","front-img/3.png"];
 var i=0;
 
@@ -25,22 +24,6 @@ function chg_img(obj){
 setInterval(function () {
 chg_img(1);
 },5000);
-
-//Scrolling Animation for services image
-const observer = new IntersectionObserver((entries) => {
-entries.forEach((entry) => {
-    if(entry.isIntersecting){
-        entry.target.classList.add('service-item-inner-div-show');
-    }
-    else
-    {
-        entry.target.classList.remove('service-item-inner-div-show');
-    }
-});
-});
-
-const hiddenElements = document.querySelectorAll('.service-item-inner-div-hidden');
-hiddenElements.forEach((el) => observer.observe(el));
 
 //Scrolling Animation for Title
 

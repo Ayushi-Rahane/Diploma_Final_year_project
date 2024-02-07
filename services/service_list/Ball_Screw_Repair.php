@@ -1,9 +1,12 @@
 <html>
     <head>
         <title>Spindle Repair</title>
+        <link rel="shortcut icon" type="x-icon" href="..\..\cnc-logo.png">
+
         <link rel="stylesheet" href="..\..\style\navigation.css">
         <link rel="stylesheet" href="..\..\style\about-us.css">
         <link rel="stylesheet" href="..\..\style\general.css">
+           <link rel="stylesheet" href="..\..\style\chatbot.css">
         <link rel="stylesheet" href="..\..\style\home.css">
         <link rel="stylesheet" href="..\..\style\spindle_repair.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -151,7 +154,7 @@
     <!--Chat Bot-->
     
     <!--Chat Bot-->
-    <?php include('Diploma_Final_year_project\user-view\chatbot.php') ?>
+    <?php include('..\..\user-view\chatbot.php')?>
     </body>
  
     <script src="..\..\script.js">

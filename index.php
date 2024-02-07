@@ -1,4 +1,4 @@
-<html>
+<php>
 
 <head>
   <link rel="shortcut icon" type="x-icon" href="cnc-logo.png">
@@ -34,6 +34,7 @@
       <button onclick="chg_img(-1);" class="left-arrow-btn"> <img class="left-arrow" src="front-img/left_arrow.png"> </button>
 
       <img id="front-img" class="front-img" src="front-img/1.png">
+
       <button onclick="chg_img(1);" class="right-arrow-btn" align="center"><img align="center" class="right-arrow" src="front-img/Right_arrow copy.png"></button>
     </div>
   </div>
@@ -229,10 +230,10 @@
      
       <div class="about-us-product">
         <span class="about-us-content-title">Product</span>
-        <li class="about-us-item"><a href="products/cnc_drilling_and_routing_machine.html" class="about-us-item">CNC Drilling and Routing Machine</a></li>
-                   <li class="about-us-item" ><a href="products/spindles.html" class="about-us-item">Spindles</a></li>
-                   <li class="about-us-item"><a href="products/toolstation.html" class="about-us-item">Tool Station</a></li>
-                   <li class="about-us-item"><a href="products/Servo_Motors_and_Driver.html" class="about-us-item">Servo Motors and Drives</a></li>
+        <li class="about-us-item"><a href="products/cnc_drilling_and_routing_machine.php" class="about-us-item">CNC Drilling and Routing Machine</a></li>
+                   <li class="about-us-item" ><a href="products/spindles.php" class="about-us-item">Spindles</a></li>
+                   <li class="about-us-item"><a href="products/toolstation.php" class="about-us-item">Tool Station</a></li>
+                   <li class="about-us-item"><a href="products/Servo_Motors_and_Driver.php" class="about-us-item">Servo Motors and Drives</a></li>
           
       </div>
     </div>
@@ -245,4 +246,4 @@
 <script src="script.js">
 </script>
 
-</html>
+</php>

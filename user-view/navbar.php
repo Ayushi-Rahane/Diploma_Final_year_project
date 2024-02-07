@@ -55,8 +55,5 @@
               <li><a href="#contact-us"  onclick="smoothScroll('contact-us')" class="menu-item">Contact Us</a></li> 
               <li><a href="#aboutus" class="menu-item">About Us</a></li> 
              </ul>
-        
-        
-            </div>
-  
+         </div>
     </div>
