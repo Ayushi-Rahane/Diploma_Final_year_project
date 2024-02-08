@@ -6,25 +6,6 @@ function hide_header(obj){
   header.classList.add("header-hidden");
   nav.classList.add("nav-after-scroll");
 }
-//Home-page slideshow
-
-var front_img = ["front-img/1.png","front-img/2.png","front-img/3.png"];
-var i=0;
-
-function chg_img(obj){
-  i=i+obj;
-   if(i>=front_img.length){
-      i=0;
-   }
-   else if(i<0)
-   {
-    i=front_img.length-1;       
-   }
-   document.getElementById("front-img").src=front_img[i];
-}
-setInterval(function () {
-chg_img(1);
-},5000);
 
 //Scrolling Animation for services image
 const observer = new IntersectionObserver((entries) => {

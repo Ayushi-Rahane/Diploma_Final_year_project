@@ -3,15 +3,17 @@
         <title>Spindle Repair</title>
         <link rel="stylesheet" href="..\..\style\navigation.css">
         <link rel="stylesheet" href="..\..\style\about-us.css">
+        <link rel="stylesheet" href="..\..\style\chatbot.css">
         <link rel="stylesheet" href="..\..\style\general.css">
         <link rel="stylesheet" href="..\..\style\home.css">
         <link rel="stylesheet" href="..\..\style\spindle_repair.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Inclusive+Sans:ital@0;1&family=Raleway:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Inclusive+Sans:ital@0;1&family=Raleway:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
     </head>
     <body>
       <div>
@@ -177,7 +179,7 @@
   <div class="about-us-item">m_rahane@yahoo.com</div>
  </div>
   <!--Chat Bot-->
-  <?php include('Diploma_Final_year_project\user-view\chatbot.php') ?>
+  <?php include('..\..\user-view\chatbot.php') ?>
     </body>
  
     <script src="..\..\script.js">
