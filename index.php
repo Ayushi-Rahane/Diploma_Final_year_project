@@ -1,5 +1,4 @@
-<php>
-
+<html>
 <head>
   <link rel="shortcut icon" type="x-icon" href="cnc-logo.png">
 
@@ -26,17 +25,46 @@
 
   ?>
 
-  <!--Home/Front Page-->
-
-  <div class="home-outer-div">
+ <!--Home/Front Page-->
+ <div class="home-outer-div">
     <div class="homer-inner-div">
+        <?php
 
-      <button onclick="chg_img(-1);" class="left-arrow-btn"> <img class="left-arrow" src="front-img/left_arrow.png"> </button>
+        include('config/dbcon.php');
+    $query = "SELECT image FROM home_slider";
+$result = mysqli_query($conn, $query);
 
-      <img id="front-img" class="front-img" src="front-img/1.png">
+if (!$result) {
+    die("Error fetching home_slider: " . mysqli_error($conn));
+}
 
-      <button onclick="chg_img(1);" class="right-arrow-btn" align="center"><img align="center" class="right-arrow" src="front-img/Right_arrow copy.png"></button>
-    </div>
+// Fetch image URLs into an array
+$imageUrls = [];
+while ($row = mysqli_fetch_assoc($result)) {
+    $imageUrls[] = $row['image'];
+}
+
+// Get the current slide index from the query parameter
+$slideIndex = isset($_GET['slide']) ? $_GET['slide'] : 0;
+
+// Ensure the slide index is within bounds
+if ($slideIndex < 0 || $slideIndex >= count($imageUrls)) {
+    $slideIndex = 0; // Reset to the first image
+}
+
+echo "<p><a href='?slide=", ($slideIndex - 1 + count($imageUrls)) % count($imageUrls), "'> <button class='left-arrow-btn'><img class='left-arrow' src='front-img/left_arrow.png'></a> </button>";
+
+// Display the current image
+echo "<img id='front-img' class='front-img' src='uploads/{$imageUrls[$slideIndex]}' alt='Slideshow Image'>";
+
+// Generate links to navigate to the previous or next slide
+
+echo "<a href='?slide=", ($slideIndex + 1) % count($imageUrls), "'> <button class='right-arrow-btn' align='center'><img align='center' class='right-arrow' src='front-img/Right_arrow copy.png'></button></a></p>";
+
+// Close the database connection
+mysqli_close($conn);
+?>
+</div>
   </div>
 
   <!--Service section-->
@@ -246,4 +274,4 @@
 <script src="script.js">
 </script>
 
-</php>
+    </html>

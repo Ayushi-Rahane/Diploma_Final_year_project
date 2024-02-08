@@ -7,6 +7,7 @@ function hide_header(obj){
   nav.classList.add("nav-after-scroll");
 }
 //Home-page slideshow
+
 var front_img = ["front-img/1.png","front-img/2.png","front-img/3.png"];
 var i=0;
 
@@ -24,6 +25,22 @@ function chg_img(obj){
 setInterval(function () {
 chg_img(1);
 },5000);
+
+//Scrolling Animation for services image
+const observer = new IntersectionObserver((entries) => {
+entries.forEach((entry) => {
+    if(entry.isIntersecting){
+        entry.target.classList.add('service-item-inner-div-show');
+    }
+    else
+    {
+        entry.target.classList.remove('service-item-inner-div-show');
+    }
+});
+});
+
+const hiddenElements = document.querySelectorAll('.service-item-inner-div-hidden');
+hiddenElements.forEach((el) => observer.observe(el));
 
 //Scrolling Animation for Title
 
@@ -242,14 +259,6 @@ const generateResponse = () => {
     {keywords:["enquiry","enquiry form"],response:"Enquiry gives information, clarification, or details about Concept N Controls, Visit Enquiry form to know more.."},
     
     {keywords:["price","prices"],response:" Visit 'Our Products' to know more.."},
-    {keywords:["machine","machinery","Machines"],response:`We offer Preventive Maintenance of following Machines:
-          <br>1. CNC DYNAMOTION
-          <br>2. CNC PLURITEC GIGA
-          <br>3. CNC BEAUTIFUL
-          <br>4. CNC BETTER
-          <br>5. CNC LENZ
-          <br>6. CNC SOGOTEC
-          <br>7. CNC KEIWAI`},
 
    
 {keywords:["location"],response:" Office 1: SHREE APARTMENT, NEHRU GARDEN, LOKRUCHINAGAR, RAHATA, DIST. AHMEDNAGAR-423107;<br> Office 2:4311, STREET NO. 9, AJITNAGAR, GANDHINAGAR, DELHI-110031"},
@@ -351,4 +360,3 @@ function data(obj) {
   // Optionally, you can focus on the input after adding the link
   chatInput.focus();
 }
-  

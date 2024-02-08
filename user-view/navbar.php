@@ -14,7 +14,7 @@
        </div>
          <div class="nav">
              <div class="left-div">
-        <a href="index.html"> <img class="logo-img" src="cnc-logo.png"></a>  
+        <a href="index.php"> <img class="logo-img" src="cnc-logo.png"></a>  
              </div>
            
              <div class="mid-div">
@@ -33,23 +33,23 @@
               <li class="services">
                  <a class="menu-item">Our Services</a>
                 <ul class="service-drop-down-menu">
-                 <li class="service-list"><a class="service-list-link special-link" href="services\service_list\spindle_repair.html">Spindle Repair</a></li>
-                 <li class="service-list"><a class="service-list-link special-link" href="services\service_list\Ball_Screw_Repair.html"> Ball Screw Repair</a></li>
-                 <li class="service-list"><a class="service-list-link special-link" href="services\service_list\Servo_Motors_and_Drive_Repair.html">Servo Motors and Drive Repair</a></li>
-                 <li class="service-list "><a class="service-list-link special-link" href="services\service_list\cnc_machine_prevention_maintenance.html">CNC Machine Preventive Maintenance</a></li>
-                 <li class="service-list"><a class="service-list-link special-link" href="services\service_list\cnc_machine-breakdown-maintenance.html">CNC Machine Breakdown Maintenance</a></li>
-                 <li class="service-list"><a class="service-list-link special-link" href="services\service_list\spindle_repair.html">Retrofitting of CNC Machine</a></li>
+                 <li class="service-list"><a class="service-list-link special-link" href="services\service_list\spindle_repair.php">Spindle Repair</a></li>
+                 <li class="service-list"><a class="service-list-link special-link" href="services\service_list\Ball_Screw_Repair.php"> Ball Screw Repair</a></li>
+                 <li class="service-list"><a class="service-list-link special-link" href="services\service_list\Servo_Motors_and_Drive_Repair.php">Servo Motors and Drive Repair</a></li>
+                 <li class="service-list "><a class="service-list-link special-link" href="services\service_list\cnc_machine_prevention_maintenance.php">CNC Machine Preventive Maintenance</a></li>
+                 <li class="service-list"><a class="service-list-link special-link" href="services\service_list\cnc_machine-breakdown-maintenance.php">CNC Machine Breakdown Maintenance</a></li>
+                 <li class="service-list"><a class="service-list-link special-link" href="services\service_list\spindle_repair.php">Retrofitting of CNC Machine</a></li>
                 </ul>
              </li>
              <li class="products">
                <a class="menu-item">Our Products</a>
                <ul class="product-drop-down-menu">
-                 <li class="product-list"><a class="special-link" href="products/cnc_drilling_and_routing_machine.html">CNC Drilling and Routing Machine</a></li>
-                 <li class="product-list"><a class="special-link" href="products/spindles.html">Spindles</a></li>
+                 <li class="product-list"><a class="special-link" href="products/cnc_drilling_and_routing_machine.php">CNC Drilling and Routing Machine</a></li>
+                 <li class="product-list"><a class="special-link" href="products/spindles.php">Spindles</a></li>
                  
-                 <li class="product-list"><a class="special-link" href="products/toolstation.html">Tool Station</a></li>
-                 <li class="product-list"><a class="special-link" href="products/Servo_Motors_and_Driver.html">Servo Motors and Drives</a></li>
-                 <li class="product-list"><a class="special-link" href="products/Linear_Guide.html">Linear Guide</a></li>
+                 <li class="product-list"><a class="special-link" href="products/toolstation.php">Tool Station</a></li>
+                 <li class="product-list"><a class="special-link" href="products/Servo_Motors_and_Driver.php">Servo Motors and Drives</a></li>
+                 <li class="product-list"><a class="special-link" href="products/Linear_Guide.php">Linear Guide</a></li>
                 </ul>
              </li>  
               <li><a href="#contact-us"  onclick="smoothScroll('contact-us')" class="menu-item">Contact Us</a></li> 
