@@ -74,10 +74,7 @@
                <li><a class="menu-item" href="../index.php#contact-us">Contact Us</a></li> 
              <li><a class="menu-item" href="../index.php#aboutus">About Us</a></li>
                </ul>
-          
-          
               </div>
-    
       </div>
   <div>
            <div class="title-div">

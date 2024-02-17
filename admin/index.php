@@ -168,7 +168,9 @@ if (isset($_SESSION['adminLogin']) && isset($_SESSION['admin'])) {
             </div>
             <hr class="dark horizontal my-0">
             <div class="card-footer p-3">
+              <a href="../index.php">
               <p class="mb-0"><span class="text-success text-sm font-weight-bolder">visit </span></p>
+              </a>
             </div>
           </div>
         </div>
