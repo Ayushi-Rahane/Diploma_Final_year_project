@@ -69,9 +69,8 @@
                    <li class="product-list"><a class="special-link" href="..\products/Linear_Guide.php">Linear Guide</a></li>
                   </ul>
                </li>  
-                <li><a href="..\index.php"  onclick="smoothScroll('contact-us')" class="menu-item">Contact Us</a></li> 
-                <li><a href="#aboutus" class="menu-item">About Us</a></li> 
-               </ul>
+               <li><a class="menu-item" href="../index.php#contact-us">Contact Us</a></li> 
+             <li><a class="menu-item" href="../index.php#aboutus">About Us</a></li></ul>
           
           
               </div>

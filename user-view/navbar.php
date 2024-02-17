@@ -22,12 +22,7 @@
                <input type="checkbox" id="check" onclick="hide_header(this);">
                <label for="check" class="menu-icon">
                  <i class="fa-solid fa-bars"></i>
-               </label>
-               
-               
-             
-            
-           
+               </label> 
            <ul class="menu-ul">
               <li><a class="menu-item">Home</a></li> 
               <li class="services">
