@@ -3,7 +3,7 @@ session_start();
 
    include('../config/dbcon.php');
    include('../functions/myfunctions.php');
-  if(isset($_POST['add_product_btn'])){
+   if(isset($_POST['add_product_btn'])){
     $name = $_POST['name'];
     $slug = $_POST['slug'];
     $description = $_POST['description'];
@@ -11,29 +11,30 @@ session_start();
     $meta_description = $_POST['meta_description'];
     $meta_keyword = $_POST['meta_keyword'];
 
-    //uploading image
-    $image = $_FILES['image']['name'];
-    $path="../uploads";
-    $image_ext = pathinfo($image,PATHINFO_EXTENSION);
-    $filename = time().".".$image_ext;
-   
-    //run query to insert data in db
+    // Check if an image is uploaded
+    if(isset($_FILES['image']['name']) && !empty($_FILES['image']['name'])) {
+        $image = $_FILES['image']['name'];
+        $path="../uploads";
+        $image_ext = pathinfo($image, PATHINFO_EXTENSION);
+        $filename = time().".".$image_ext;
 
-    $product_query =  "INSERT INTO add_product (name,slug,description,meta_title,meta_description,meta_keywords,image) VALUES (' $name','$slug','$description','$meta_title','$meta_description','$meta_keyword','$filename')";
+        //run query to insert data in db
+        $product_query = "INSERT INTO add_product (name, slug, description, meta_title, meta_description, meta_keywords, image) VALUES ('$name','$slug','$description','$meta_title','$meta_description','$meta_keyword','$filename')";
 
-    $product_query_run = mysqli_query($conn,$product_query);
+        $product_query_run = mysqli_query($conn, $product_query);
 
-    if($product_query_run)
-    {
-       move_uploaded_file($_FILES['image']['tmp_name'], $path.'/'.$filename);
-       redirect("add_product.php","Product Added Successfully");
+        if($product_query_run)
+        {
+            move_uploaded_file($_FILES['image']['tmp_name'], $path.'/'.$filename);
+            redirect("add_product.php","Product Added Successfully");
+        }
+        else{
+            redirect("add_product.php","Something Went Wrong");
+        }
+    } else {
+        redirect("add_product.php","Please upload an image");
     }
-    else{
-        redirect("add_product.php","Something Went Wrong");
-    }
-
-
-  }
+}
   else if(isset($_POST['update_product_btn'])){
 
     $product_id = $_POST['product_id'];
