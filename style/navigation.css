@@ -153,6 +153,7 @@ top:55px;
   width:140px;
   display:none;
 }
+
 .services:hover .service-drop-down-menu{
   display:grid;
 }
@@ -168,13 +169,15 @@ color:#424874;
 font-family:'Inclusive Sans', sans-serif;
 transition: all 1s;
 }
+.service-list:hover{
+  color:#DCD6F7 !important;
+  background-color:#eeebfb;
+ transform:translateX(10px);
+}
 .special-link{
-  color:#424874;
-}
+  color:#635b87;
+}       
 
-.special-link:hover{
-  color:#DCD6F7;
-}
 .special-link-logo{
   color:inherit;
 }
@@ -182,11 +185,7 @@ transition: all 1s;
 .service-list-link:visited{
   color:inherit;
 }*/
-.service-list:hover{
-  color:#DCD6F7;
-  background-color:#424874;
- transform:translateX(10px);
-}
+
 
 
 .product-drop-down-menu{
@@ -216,9 +215,10 @@ transition: all 1s;
 }
 .product-list:hover{
   color:#DCD6F7;
-  background-color:#424874;
+  background-color:#eeebfb;
   transform:translateX(10px);
 }
+
 @media screen and (min-width: 350px) and (max-width: 767px) {
   
   .left-header{

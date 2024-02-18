@@ -55,7 +55,7 @@
                    <li class="service-list"><a class="service-list-link special-link" href="Servo_Motors_and_Drive_Repair.php">Servo Motors and Drive Repair</a></li>
                    <li class="service-list "><a class="service-list-link special-link" href="cnc_machine_prevention_maintenance.php">CNC Machine Preventive Maintenance</a></li>
                    <li class="service-list"><a class="service-list-link special-link" href="cnc_machine-breakdown-maintenance.php">CNC Machine Breakdown Maintenance</a></li>
-                   <li class="service-list"><a class="service-list-link special-link" href="spindle_repair.php">Retrofitting of CNC Machine</a></li>
+                   <li class="service-list"><a class="service-list-link special-link" href="retrofitting_of_cnc_machine.php">Retrofitting of CNC Machine</a></li>
                   </ul>
                </li>
                <li class="products">

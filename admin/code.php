@@ -116,28 +116,30 @@ session_start();
   }
   else if(isset($_POST['add_slider_btn'])){
     //uploading image
-    $image = $_FILES['image']['name'];
-    $path="../uploads";
-    $image_ext = pathinfo($image,PATHINFO_EXTENSION);
-    $filename = time().".".$image_ext;
-   
-    //run query to insert data in db
+    if(isset($_FILES['image']['name']) && !empty($_FILES['image']['name'])) {
+        $image = $_FILES['image']['name'];
+        $path="../uploads";
+        $image_ext = pathinfo($image, PATHINFO_EXTENSION);
+        $filename = time().".".$image_ext;
 
-    $slider_query =  "INSERT INTO home_slider (image) VALUES ('$filename')";
+        //run query to insert data in db
+        $slider_query =  "INSERT INTO home_slider (image) VALUES ('$filename')";
 
-    $slider_query_run = mysqli_query($conn,$slider_query);
+        $slider_query_run = mysqli_query($conn, $slider_query);
 
-    if($slider_query_run)
-    {
-       move_uploaded_file($_FILES['image']['tmp_name'], $path.'/'.$filename);
-       redirect("home_slides.php","Slide Added Successfully");
+        if($slider_query_run)
+        {
+            move_uploaded_file($_FILES['image']['tmp_name'], $path.'/'.$filename);
+            redirect("home_slides.php","Slide Added Successfully");
+        }
+        else{
+            redirect("home_slides.php","Something Went Wrong");
+        }
+    } else {
+        redirect("home_slides.php","Please upload an image");
     }
-    else{
-        redirect("home_slides.php","Something Went Wrong");
-    }
+}
 
-
-  }
   else if(isset($_POST['delete_slider_btn'])){
     $slider_id = mysqli_real_escape_string($conn,$_POST['slider_id']);
     $product_query = "SELECT * FROM home_slider WHERE id='$slider_id'";
