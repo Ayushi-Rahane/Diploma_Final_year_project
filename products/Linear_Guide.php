@@ -53,7 +53,6 @@
                   <ul class="service-drop-down-menu">
                    <li class="service-list"><a class="service-list-link special-link" href="../services/service_list/spindle_repair.php">Spindle Repair</a></li>
                    <li class="service-list"><a class="service-list-link special-link" href="../services/service_list/Ball_Screw_Repair.php"> Ball Screw Repair</a></li>
-                   <li class="service-list"><a class="service-list-link special-link" href="../services/service_list/Servo_Motors_and_Drive_Repair.php">Servo Motors and Drive Repair</a></li>
                    <li class="service-list "><a class="service-list-link special-link" href="../services/service_list/cnc_machine_prevention_maintenance.php">CNC Machine Preventive Maintenance</a></li>
                    <li class="service-list"><a class="service-list-link special-link" href="../services/service_list/cnc_machine-breakdown-maintenance.php">CNC Machine Breakdown Maintenance</a></li>
                    <li class="service-list"><a class="service-list-link special-link" href="../services/service_list/retrofitting_of_cnc_machine.php">Retrofitting of CNC Machine</a></li>
@@ -80,28 +79,27 @@
       </div>
   <div>
            <div class="title-div">
-            <h1 class="title-hidden" style="margin-top:222px; margin-bottom:0%;">Services</h1>
+            <h1 class="title-hidden" style="margin-top:222px; margin-bottom:0%;">Products</h1>
             </div>
             <div class="sub-title-div">
                 <h3 class="sub-title-hidden sub-title-2">
-                    Retrofitting of CNC Machine
+                    Linear Guide
                 </h3>
             </div> 
             <div class="cnc_rcm_img_div">
-                <img class="rcm_img" src="../services/RCM.png">
+                <img class="rcm_img" src="linear_guide.jpg">
             </div>
        
             <div>
-                <p class="sub-text">Responsive 
-                    Precision Upgrade Services for Drilling and Routing Machines:</p>
+                <p class="sub-text">Description:</p>
             </div>
             <div class="service-item-div item-list-parent-div">
                    <div class="service-item2-div-hidden " >
                     <span class="RCM_info" >
-                        Explore our comprehensive retrofitting solutions designed to enhance the performance and capabilities of your drilling and routing machines.<br>
-                        <br> Elevate efficiency and accuracy with our tailored retrofitting services, providing a cost-effective way to extend the lifespan and functionality of your machinery. Experience the future of drilling and routing with our advanced retrofit solutions.
-                    </span>
-                    <img class="rcm2-img" src="../services/RCM2.png">
+                    Linear guides, also known as linear motion bearings or linear motion guides, are essential components in CNC (Computer Numerical Control) machines and other precision machinery. 
+                    <br>They provide controlled linear motion and support to the moving parts of the machine, enabling accurate and smooth movement along a specified path.  </span>
+                    <img class="rcm2-img" style="mix-blend-mode: multiply;" src="linear_guide.jpg">
+
                   </div>
                  </div>
                

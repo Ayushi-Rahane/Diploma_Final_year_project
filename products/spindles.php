@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Spindles</title>
+        <title>Products-Spindles</title>
         <link rel="stylesheet" href="..\style\navigation.css">
         <link rel="stylesheet" href="..\style\about-us.css">
         <link rel="stylesheet" href="..\style\chatbot.css">
@@ -27,7 +27,7 @@
            <i class="fa-solid fa-phone"></i> +919810113459, +917827802939 
           </div>
           <div class="right-header">
-           <a href="#contact-us"  onclick="smoothScroll('contact-us')" class="contact-us-link">contact us</a>
+           <a href="..\index.php#contact-us"  onclick="smoothScroll('contact-us')" class="contact-us-link">contact us</a>
           </div>
          </div>
            <div class="nav">
@@ -53,7 +53,6 @@
                   <ul class="service-drop-down-menu">
                    <li class="service-list"><a class="service-list-link special-link" href="../services/service_list/spindle_repair.php">Spindle Repair</a></li>
                    <li class="service-list"><a class="service-list-link special-link" href="../services/service_list/Ball_Screw_Repair.php"> Ball Screw Repair</a></li>
-                   <li class="service-list"><a class="service-list-link special-link" href="../services/service_list/Servo_Motors_and_Drive_Repair.php">Servo Motors and Drive Repair</a></li>
                    <li class="service-list "><a class="service-list-link special-link" href="../services/service_list/cnc_machine_prevention_maintenance.php">CNC Machine Preventive Maintenance</a></li>
                    <li class="service-list"><a class="service-list-link special-link" href="../services/service_list/cnc_machine-breakdown-maintenance.php">CNC Machine Breakdown Maintenance</a></li>
                    <li class="service-list"><a class="service-list-link special-link" href="../services/service_list/retrofitting_of_cnc_machine.php">Retrofitting of CNC Machine</a></li>
@@ -62,16 +61,16 @@
                <li class="products">
                  <a class="menu-item">Our Products</a>
                  <ul class="product-drop-down-menu">
-                   <li class="product-list"><a class="special-link" href="..\products/cnc_drilling_and_routing_machine.php">CNC Drilling and Routing Machine</a></li>
-                   <li class="product-list"><a class="special-link" href="..\products/spindles.php">Spindles</a></li>
+                   <li class="product-list"><a class="special-link" href="cnc_drilling_and_routing_machine.php">CNC Drilling and Routing Machine</a></li>
+                   <li class="product-list"><a class="special-link" href="spindles.php">Spindles</a></li>
                    
-                   <li class="product-list"><a class="special-link" href="..\products/toolstation.php">Tool Station</a></li>
-                   <li class="product-list"><a class="special-link" href="..\products/Servo_Motors_and_Driver.php">Servo Motors and Drives</a></li>
-                   <li class="product-list"><a class="special-link" href="..\products/Linear_Guide.php">Linear Guide</a></li>
+                   <li class="product-list"><a class="special-link" href="toolstation.php">Tool Station</a></li>
+                   <li class="product-list"><a class="special-link" href="Servo_Motors_and_Driver.php">Servo Motors and Drives</a></li>
+                   <li class="product-list"><a class="special-link" href="Linear_Guide.php">Linear Guide</a></li>
                   </ul>
                </li>  
-               <li><a class="menu-item" href="../index.php#contact-us">Contact Us</a></li> 
-             <li><a class="menu-item" href="../index.php#aboutus">About Us</a></li>
+               <li><a href="..\index.php#contact-us"  onclick="smoothScroll('contact-us')" class="menu-item">Contact Us</a></li> 
+                <li><a href="..\index.php#aboutus" class="menu-item">About Us</a></li> 
                </ul>
           
           
@@ -88,50 +87,50 @@
                 </h3>
             </div>
             <div>
-                <p class="sub-text">Following spindles are available:</p>
+                <p class="sub-text">Repair services are available for these spindles:</p>
             </div>
             <div class="service-item-div">
                 <div class="service-item1-div-hidden">
                    <div>
-                    <img class="spindle-img" src="product3.png">
+                    <img class="service-img" style="mix-blend-mode: multiply;" src="../services/service1.jpeg">
                    </div>
                    <div>
-                    <div class="service-title-div"><p class="service-title">Rounting Brush</p></div>   
+                    <div class="service-title-div"><p class="service-title">ATC Ball Bearing Spindle</p></div>   
                    <div class="service-info-div">Size: 50mm<br>
-                    Used for: CNC Routing Machine
+                    The high-speed ball bearing spindle with a 60,000 RPM max speed is used in the PCB industry for routing and drilling machines. It boasts a compact, lightweight design, low inertia, minimal vibration, and low noise, ensuring high-speed, high-precision, and stable routing processes.
                    </div>
                    <div class="enquire-div">
-                    <a class="enquiry-link">Enquiry</a>
+                    <a class="enquiry-link" href="../../equire/equiry_form.php">Enquiry</a>
                     </div>
                    </div>
                  </div>
                
                  <div class="service-item2-div-hidden">
                   <div >
-                   <div class="service-title-div service-title-div2"><p class="service-title ">Rounting Brush</p></div>   
+                   <div class="service-title-div service-title-div2"><p class="service-title ">Air Bearing Spindle</p></div>   
                   <div class="service-info-div service-info-div2">Size: 50mm<br>
-                   Used for: CNC Routing Machine
+                    Westwind air bearing spindles excel in high-speed, precision, and oil-free applications worldwide, outperforming conventional bearings for increased productivity and quality.
                   </div>
                   <div class="enquire-div enquire-div2">
-                   <a class="enquiry-link">Enquiry</a>
+                   <a class="enquiry-link" href="../../equire/equiry_form.php">Enquiry</a>
                    </div>
                   </div>
                   <div class="service-img-div">
-                    <img class="spindle-img" src="product4.jpeg">
+                    <img class="service-img" style="mix-blend-mode: multiply;" src="../services/service2.jpeg">
                    </div>
                 </div>
 
                 <div class="service-item1-div-hidden">
                   <div>
-                   <img class="spindle-img" src="product5.png">
+                   <img class="service-img" style="mix-blend-mode: multiply;" src="../services/service3.png">
                   </div>
                   <div>
-                   <div class="service-title-div"><p class="service-title">Rounting Brush</p></div>   
+                   <div class="service-title-div"><p class="service-title">MTC Water Cooled Routing Spindle</p></div>   
                   <div class="service-info-div">Size: 50mm<br>
-                   Used for: CNC Routing Machine
+                    JGD-72 1.5kw 40000rpm ER11 Water Cooling Spindle Motor
                   </div>
                   <div class="enquire-div">
-                   <a class="enquiry-link">Enquiry</a>
+                   <a class="enquiry-link" href="../../equire/equiry_form.php">Enquiry</a>
                    </div>
                   </div>
                 </div>
@@ -159,20 +158,20 @@
   <div class="about-us-service-product">
     <div>
       <span class="about-us-content-title">Services:</span> <br>
-      <li class="about-us-item"><a href="../services/service_list/spindle_repair.php" class="about-us-item">Spindle Repair</a></li>
-      <li class="about-us-item"><a href="../services/service_list/Ball_Screw_Repair.php" class="about-us-item">Ball Screw Repair</a></li>
-      <li class="about-us-item"><a href="../services/service_list/Servo_Motors_and_Drive_Repair.php" class="about-us-item">Servo Motors and Drive Repair</a></li>
-      <li class="about-us-item"><a href="../services/service_list/cnc_machine_prevention_maintenance.php" class="about-us-item" >CNC Machine Preventive Maintenance</a></li>
-      <li class="about-us-item"><a href="../services/service_list/cnc_machine-breakdown-maintenance.php" class="about-us-item">CNC Machine Breakdown Maintenance</a></li>
-      <li class="about-us-item"><a href="../services/service_list/retrofitting_of_cnc_machine.php" class="about-us-item">Retrofitting of CNC Machine</a></li>
+      <li class="about-us-item"><a href="spindle_repair.php" class="about-us-item">Spindle Repair</a></li>
+      <li class="about-us-item"><a href="Ball_Screw_Repair.php" class="about-us-item">Ball Screw Repair</a></li>
+      <li class="about-us-item"><a href="Servo_Motors_and_Drive_Repair.php" class="about-us-item">Servo Motors and Drive Repair</a></li>
+      <li class="about-us-item"><a href="cnc_machine_prevention_maintenance.php" class="about-us-item" >CNC Machine Preventive Maintenance</a></li>
+      <li class="about-us-item"><a href="cnc_machine-breakdown-maintenance.php" class="about-us-item">CNC Machine Breakdown Maintenance</a></li>
+      <li class="about-us-item"><a href="retrofitting_of_cnc_machine.php" class="about-us-item">Retrofitting of CNC Machine</a></li>
     </div>
    
     <div class="about-us-product">
       <span class="about-us-content-title">Product</span>
-      <li class="about-us-item"><a href="cnc_drilling_and_routing_machine.php" class="about-us-item">CNC Drilling and Routing Machine</a></li>
-                 <li class="about-us-item" ><a href="spindles.php" class="about-us-item">Spindles</a></li>
-                 <li class="about-us-item"><a href="toolstation.php" class="about-us-item">Tool Station</a></li>
-                 <li class="about-us-item"><a href="Servo_Motors_and_Driver.php" class="about-us-item">Servo Motors and Drives</a></li>
+      <li class="about-us-item"><a href="../../products/cnc_drilling_and_routing_machine.php" class="about-us-item">CNC Drilling and Routing Machine</a></li>
+                 <li class="about-us-item" ><a href="../../products/spindles.php" class="about-us-item">Spindles</a></li>
+                 <li class="about-us-item"><a href="../../products/toolstation.php" class="about-us-item">Tool Station</a></li>
+                 <li class="about-us-item"><a href="../../products/Servo_Motors_and_Driver.php" class="about-us-item">Servo Motors and Drives</a></li>
         
     </div>
   </div>

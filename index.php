@@ -149,43 +149,6 @@ mysqli_close($conn);
       ?>
 
     </div>
-
-    <!--div>
-  <div class="title-div">
-    <h1 class="title-hidden">Products</h1>
-    </div>
-  <div class="product-item-div">
-    <div class="product-item1-div-hidden">
-       <div>
-        <img class="product-img" src="products/product1.png">
-       </div>
-       <div>
-        <div class="product-title-div"><p class="product-title">Rounting Brush</p></div>   
-       <div class="product-info-div">Size: 50mm<br>
-        Used for: CNC Routing Machine
-       </div>
-       <div class="enquire-div">
-        <a class="enquiry-link" href="equire/equiry_form.php">Enquiry</a>
-        </div>
-       </div>
-     </div>
-     <div class="product-item1-div-hidden">
-      <div>
-       <img class="product-img" src="products/product3.png">
-      </div>
-      <div>
-       <div class="product-title-div"><p class="product-title">ATC Ball Bearing Spindle</p></div>   
-      <div class="product-info-div">
-        The 60,000 RPM high-speed ball bearing spindle, used in the PCB industry for routing and drilling, offers compact, lightweight, low vibration, and low noise design, ensuring precise, stable processes.
-
-      </div>
-      <div class="enquire-div">
-       <a class="enquiry-link" href="equire/equiry_form.php">Enquiry</a>
-       </div>
-      </div>
-    </div>
-</div-->
-
     <!--Contact us Section-->
     <div id="contact-us" class=contact_us>
       <div class="title-div">
