@@ -235,11 +235,13 @@ const generateResponse = () => {
 
     {keywords:["cnc"],response:"CNC is a company specializing in CNC (Computer Numerical Control) machines and related products such as spindle repair, ball screw repair, servo motors and drive repair, CNC machine preventive maintenance, CNC machine breakdown maintenance, retrofitting of CNC machines. Additionally, they provide services including CNC drilling and routing machine, spindles, collets, tool stations, servo motors and drivers, and linear guide."}, 
 
-    {keywords:["contact us","contact details","contact"],response:"Email: m_rahane@yahoo.com, Ph No. 9810113459"},
+    {keywords:["contact us","contact details","contact","email"],response:"Email: m_rahane@yahoo.com, Ph No. 9810113459"},
 
     {keywords:["enquiry","enquiry form"],response:"Enquiry gives information, clarification, or details about Concept N Controls, Visit Enquiry form to know more.."},
     
     {keywords:["price","prices"],response:" Visit 'Our Products' to know more.."},
+    
+   
 
    
 {keywords:["location"],response:" Office 1: SHREE APARTMENT, NEHRU GARDEN, LOKRUCHINAGAR, RAHATA, DIST. AHMEDNAGAR-423107;<br> Office 2:4311, STREET NO. 9, AJITNAGAR, GANDHINAGAR, DELHI-110031"},
