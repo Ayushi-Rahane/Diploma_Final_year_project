@@ -185,7 +185,7 @@ transform: translateX(0);
   
     .service-item-div{
     display:grid;
-    grid-template-rows:40em 25em 25em;
+    grid-template-rows:40em 25em 35em;
   }
   .service-item1-div-hidden{
     display:grid;

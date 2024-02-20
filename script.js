@@ -214,7 +214,7 @@ const generateResponse = () => {
   
   const companyKeywords = [
 
-    {keywords:["cnc machine","cncmachine"],response:"A CNC (Computer Numerical Control) machine is a computer-controlled manufacturing tool used for precision shaping, cutting, and machining of materials like metal, plastic, and wood."}, 
+    {keywords:["cnc machine","cncmachine","machine","machines"],response:"A CNC (Computer Numerical Control) machine is a computer-controlled manufacturing tool used for precision shaping, cutting, and machining of materials like metal, plastic, and wood."}, 
    
     { keywords: ["spindle repair", "spindle repairs","spindlerepair","spindlerepairs","spindle","spindles"], response: "Expert restoration of spindle assemblies, addressing wear, balancing, and ensuring peak machining equipment performance." },
 
@@ -239,6 +239,7 @@ const generateResponse = () => {
     {keywords:["enquiry","enquiry form"],response:"Enquiry gives information, clarification, or details about Concept N Controls, Visit Enquiry form to know more.."},
     
     {keywords:["price","prices"],response:" Visit 'Our Products' to know more.."},
+    {keywords:["phone","mobile"],response:"Email: m_rahane@yahoo.com, Ph No. 9810113459, 7827802939"},
     
    
 
@@ -265,8 +266,8 @@ const generateResponse = () => {
   }
 
   // Default response for minimal questions
-return `<div class="defaultResponse">I'm sorry, I couldn't find information related to your question.<br>If you have a specific inquiry or need assistance, feel free to provide more details, and I'll do my best to help!<br><br><li><button value="Flagship product features?" onclick="data(this)">Flagship product features?</button></li><br><li><button value="Services you offer?" onclick="data(this)">Services you offer?</button></li>
-<li><button value="Best contact method?" onclick="data(this)">Best contact method?</button></li></div>`;
+return `<div class="defaultResponse">I'm sorry, I couldn't find information related to your question.<br>If you have a specific inquiry or need assistance, feel free to provide more details, and I'll do my best to help!<br><br><li><button value="Availabe Products?" onclick="data(this)">Availabe Products?</button></li><br><li><button value="Services you offer?" onclick="data(this)">Services you offer?</button></li>
+<li><button value="Contact method?" onclick="data(this)">Contact method?</button></li></div>`;
   
 };
 
