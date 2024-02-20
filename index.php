@@ -74,41 +74,55 @@ mysqli_close($conn);
       <h1 class="title-hidden">Services</h1>
     </div>
     <div class="service-item-outer-div">
+      <a href="services/service_list/spindle_repair.php">
       <div class="service-item-inner-div-hidden">
         <div>
           <img class="service-img" src="services/service1.jpeg">
         </div>
         <div>
-          <p class="service-name">ATC Ball Bearing Spindle</p>
+          <p class="service-name">Spindle Repair</p>
         </div>
         <div class="service-info-div">
-          <p class="service-info">
-            The high-speed ball bearing spindle with a 60,000 RPM max speed is used in the PCB industry for routing and drilling machines. It boasts a compact, lightweight design, low inertia, minimal vibration, and low noise, ensuring high-speed, high-precision, and stable routing processes.</p>
+          <p  class="service-info">
+           <ul style="color:darkcyan;">
+            <li>ATC Ball Bearing Spindle</li>
+            <li>Air Bearing Spindle</li>
+            <li>MTC Water Cooled Routing Spindle</li>
+           </ul>    
+        </p>
         </div>
       </div>
+      </a>
+      <a href="services/service_list/Ball_Screw_Repair.php">
       <div class="service-item-inner-div-hidden">
         <div>
-          <img class="service-img" src="services/service2.jpeg">
+          <img class="service-img" src="services/Ball_Screw.jpg">
         </div>
         <div>
-          <p class="service-name">Air Bearing Spindle</p>
+          <p class="service-name">Ball Screw Repair</p>
         </div>
         <div class="service-info-div">
-          <p class="service-info">Westwind air bearing spindles excel in high-speed, precision, and oil-free applications worldwide, outperforming conventional bearings for increased productivity and quality.</p>
+          <p class="service-info">Concept and Controls Company excels in ball screw repairs, offering comprehensive services for CNC machines. </p>
         </div>
       </div>
+      </a>
+      <a href="services/service_list/spindle_repair.php">
       <div class="service-item-inner-div-hidden">
         <div>
           <img class="service-img" src="services/service3.png">
         </div>
         <div>
-          <p class="service-name">MTC Water Cooled Routing Spindle</p>
+          <p class="service-name">Spindle Repair</p>
         </div>
         <div class="service-info-div">
           <p class="service-info">
-            JGD-72 1.5kw 40000rpm ER11 Water Cooling Spindle Motor</p>
+          <ul style="color:darkcyan;">
+            <li>ATC Ball Bearing Spindle</li>
+            <li>Air Bearing Spindle</li>
+            <li>MTC Water Cooled Routing Spindle</li>
+           </ul></p>
         </div>
-      </div>
+      </div></a>
     </div>
     <div class="enquire-div">
       <a class="enquiry-link" href="equire/equiry_form.php">Enquiry</a>

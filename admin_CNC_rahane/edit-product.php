@@ -54,10 +54,7 @@
                 <label for="">Name</label>
                 <input type="text" name="name" value="<?= $data['name'] ?>" placeholder="Enter Product Name" class="form-control">
                 </div>
-                <div class="col-md-6">
-                <label for="">Slug</label>
-                <input type="text" name="slug" placeholder="Enter Slug" value="<?= $data['slug'] ?>" class="form-control">
-                </div>
+               
                 <div class="col-md-12">
                 <label for="">Description</label>
                 <textarea type="text" name="description" placeholder="Enter Description" class="form-control"><?= $data['description'] ?></textarea>
@@ -68,19 +65,8 @@
                 <label for="">Current Image</label>
                 <input type="hidden" name="old_image" value="<?= $data['image'] ?>">
                 <img src="../uploads/<?= $data['image']; ?>" width="50px" height="50px" alt="<?= $item['name']; ?>">
-                </div>
-                <div class="col-md-12">
-                <label for="">Meta Title</label>
-                <input type="text" name="meta_title" value="<?= $data['meta_title'] ?>" placeholder="Enter Meta Title" class="form-control">
-                </div>
-                <div class="col-md-12">
-                <label for="">Meta Description</label>
-                <textarea type="text" name="meta_description" placeholder="Enter Meta Description" class="form-control"><?= $data['name'] ?></textarea>
-                </div>
-                <div class="col-md-12">
-                <label for="">Meta Keyword</label>
-                <input type="text" value="<?= $data['meta_keywords'] ?>" name="meta_keyword" placeholder="Enter Meta Title" class="form-control">
-                </div>
+               
+           
                 <div class="col-md-12">
                   <button type="submit" class="btn btn-primary" name="update_product_btn">Update</button>
                 </div>

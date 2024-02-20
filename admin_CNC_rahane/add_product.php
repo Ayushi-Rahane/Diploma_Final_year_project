@@ -44,10 +44,6 @@
                 <label for="">Name</label>
                 <input type="text" name="name" placeholder="Enter Product Name" class="form-control">
                 </div>
-                <div class="col-md-6">
-                <label for="">Slug</label>
-                <input type="text" name="slug" placeholder="Enter Slug" class="form-control">
-                </div>
                 <div class="col-md-12">
                 <label for="">Description</label>
                 <input type="text" name="description" placeholder="Enter Description" class="form-control">
@@ -56,22 +52,7 @@
                 <label for="">Upload Image</label>
                 <input type="file" name="image" class="form-control">
                 </div>
-                <div class="col-md-12">
-                <label for="">Meta Title</label>
-                <input type="text" name="meta_title" placeholder="Enter Meta Title" class="form-control">
-                </div>
-                <div class="col-md-12">
-                <label for="">Meta Description</label>
-                <input type="text" name="meta_description" placeholder="Enter Meta Description" class="form-control">
-                </div>
-                <div class="col-md-12">
-                <label for="">Meta Keyword</label>
-                <input type="text" name="meta_keyword" placeholder="Enter Meta Keyword" class="form-control">
-                </div>
-                <div class="col-md-12">
-                <label for="">Meta Keyword</label>
-                <input type="text" name="meta_title" placeholder="Enter Meta Title" class="form-control">
-                </div>
+              
                 <div class="col-md-12">
                   <button type="submit" class="btn btn-primary" name="add_product_btn">Save</button>
                 </div>

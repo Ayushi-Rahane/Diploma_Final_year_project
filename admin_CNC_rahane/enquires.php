@@ -55,7 +55,7 @@
                                     <td><?= $item['phone'] ?> </td>
                                     <!--td><!?= $item['address'] ?> </td-->
                                     <td><?= $item['company_name'] ?> </td>
-                                    <td><?= $item['msg'] ?> </td>
+                                    <td style="width:177px;"><?= $item['msg'] ?> </td>
                                     <td>
                                         <form action="code.php" method="POST">
                                             <input type="hidden" name="enquiry_id" value="<?= $item['id'] ?>">
