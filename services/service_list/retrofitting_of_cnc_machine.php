@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Retrofitting of CNC Machine</title>
+        <title>Service-Retrofitting of CNC Machine</title>
         <link rel="stylesheet" href="..\..\style\navigation.css">
      
         <link rel="stylesheet" href="..\..\style\general.css">

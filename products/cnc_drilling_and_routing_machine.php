@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>CNC Drilling and Routing Machine</title>
+        <title>Product-CNC Drilling and Routing Machine</title>
         <link rel="stylesheet" href="..\style\navigation.css">
         <link rel="stylesheet" href="..\style\chatbot.css">
         <link rel="stylesheet" href="..\style\general.css">

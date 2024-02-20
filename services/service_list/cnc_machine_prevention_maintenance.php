@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>CNC Machine Prevention Maintenance</title>
+        <title>Service-CNC Machine Prevention Maintenance</title>
         <link rel="stylesheet" href="..\..\style\navigation.css">
      
         <link rel="stylesheet" href="..\..\style\general.css">

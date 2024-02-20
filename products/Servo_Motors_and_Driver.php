@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Service- Servo Motors and Drive Repair</title>
+        <title>Product- Servo Motors and Drive</title>
         <link rel="stylesheet" href="..\style\navigation.css">
         <link rel="stylesheet" href="..\style\about-us.css">
         <link rel="stylesheet" href="..\style\general.css">

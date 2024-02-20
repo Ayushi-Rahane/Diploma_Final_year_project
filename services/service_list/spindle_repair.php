@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Spindle Repair</title>
+        <title>Service-Spindle Repair</title>
         <link rel="stylesheet" href="..\..\style\navigation.css">
         <link rel="stylesheet" href="..\..\style\about-us.css">
         <link rel="stylesheet" href="..\..\style\chatbot.css">

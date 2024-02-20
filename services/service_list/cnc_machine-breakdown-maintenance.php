@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>CNC Machine Breakdown Maintenance</title>
+        <title>Service-CNC Machine Breakdown Maintenance</title>
         <link rel="stylesheet" href="..\..\style\navigation.css">
         <link rel="stylesheet" href="..\..\style\chatbot.css">
         <link rel="stylesheet" href="..\..\style\general.css">
