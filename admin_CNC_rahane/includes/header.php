@@ -29,6 +29,20 @@
       border: 1px solid #b3a1a1 !important;
       padding:8px 10px;
      }
+     
+        /* Add this style to your existing styles */
+        .container {
+            max-height: 600px; /* Adjust this value as needed */
+            overflow-y: auto;
+        }
+
+        /* Add this style to ensure the body fills the height of the viewport */
+        body {
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+    
 
    </style> 
 </head>

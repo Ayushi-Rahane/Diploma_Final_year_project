@@ -266,7 +266,7 @@ const generateResponse = () => {
   }
 
   // Default response for minimal questions
-return `<div class="defaultResponse">I'm sorry, I couldn't find information related to your question.<br>If you have a specific inquiry or need assistance, feel free to provide more details, and I'll do my best to help!<br><br><li><button value="Availabe Products?" onclick="data(this)">Availabe Products?</button></li><br><li><button value="Services you offer?" onclick="data(this)">Services you offer?</button></li>
+return `<div class="defaultResponse">I'm sorry, I couldn't find information related to your question.<br>If you have a specific inquiry or need assistance, feel free to provide more details, and I'll do my best to help!<br><br><li><button value="Availabe Product ?" onclick="data(this)">Availabe Product ?</button></li><br><li><button value="Services you offer?" onclick="data(this)">Services you offer?</button></li>
 <li><button value="Contact method?" onclick="data(this)">Contact method?</button></li></div>`;
   
 };

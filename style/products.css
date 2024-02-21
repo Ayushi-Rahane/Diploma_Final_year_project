@@ -19,6 +19,7 @@
 }
 .product-item1-div-show{
     opacity:1;
+    padding-bottom:20px;
     filter:blur(0);
     transform: translateX(0);
 }
@@ -55,7 +56,8 @@
 
 @media screen and (min-width: 350px) and (max-width: 767px) {
     .product-item-div{
-        grid-template-rows: 400px 500px;
+        grid-template-rows: 400px;
+        grid-gap:50px;
     }
     .product-item1-div-hidden{
         grid-template-columns:50px 300px;

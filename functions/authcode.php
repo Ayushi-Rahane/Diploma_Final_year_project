@@ -80,12 +80,12 @@ if(isset($_POST['enquiry_btn']))
       $_SESSION['admin'] = $email;
       $_SESSION['alert'] = "Welcome to Admin Panel";
       //header('Location: ../admin/index.php');
-     echo '<script>location.href="../admin/index.php"</script>';
+     echo '<script>location.href="../admin_CNC_rahane/index.php"</script>';
     }
     else{
         $_SESSION['alert'] = "Invalid Credentials";
         echo"error";
-        header('Location: ../admin/includes/login.php');
+        header('Location: ../admin_CNC_rahane/includes/login.php');
     }
   }
 
