@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>Product- Servo Motors and Drive</title>
+        <link rel="shortcut icon" type="x-icon" href="../cnc-logo.png">
         <link rel="stylesheet" href="..\style\navigation.css">
         <link rel="stylesheet" href="..\style\about-us.css">
         <link rel="stylesheet" href="..\style\general.css">

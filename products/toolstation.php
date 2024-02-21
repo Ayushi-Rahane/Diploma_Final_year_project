@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Product-Tool Station</title>
-        <!-- <link rel="stylesheet" href="C:\xampp\htdocs\Diploma_Final_year_project\style"> -->
+        <link rel="shortcut icon" type="x-icon" href="../cnc-logo.png">
         <link rel="stylesheet" href="..\style\navigation.css">
         <link rel="stylesheet" href="..\style\chatbot.css">
         <link rel="stylesheet" href="..\style\about-us.css">

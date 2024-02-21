@@ -1,5 +1,6 @@
 <html>
     <head>
+    <link rel="shortcut icon" type="x-icon" href="..\..\cnc-logo.png">
         <title>Service- Servo Motors and Drive Repair</title>
         <link rel="stylesheet" href="..\..\style\navigation.css">
         <link rel="stylesheet" href="..\..\style\chatbot.css">
