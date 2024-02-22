@@ -20,7 +20,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Inclusive+Sans:ital@0;1&family=Raleway:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
 </head>
 
-<body onload="ss(-1);">
+<body>
   <?php
   include('user-view/navbar.php');
 
