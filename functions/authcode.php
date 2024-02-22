@@ -36,10 +36,10 @@ if(isset($_POST['enquiry_btn']))
 	$mail->Port=587;
 	$mail->SMTPSecure="tls";
 	$mail->SMTPAuth=true;
-	$mail->Username="yesitslight@gmail.com";
-	$mail->Password="iwjf ryic wocb ukhk";
-	$mail->SetFrom("yesitslight@gmail.com");
-	$mail->addAddress("yesitslight@gmail.com");
+	$mail->Username="cncrahane1976@gmail.com";
+	$mail->Password="gzrs khmy tnkk qoso";
+	$mail->SetFrom("cncrahane1976@gmail.com");
+	$mail->addAddress("cncrahane1976@gmail.com");
 	$mail->IsHTML(true);
 	$mail->Subject="New Enquiry";
 	$mail->Body=$html;
@@ -68,26 +68,26 @@ if(isset($_POST['enquiry_btn']))
           </script>';
       }
   }
-  else if(isset($_POST['login_btn'])){
-    $email = mysqli_real_escape_string($conn,$_POST['Email']);
-    $pass = mysqli_real_escape_string($conn,$_POST['password']);
+ else if(isset($_POST['login_btn'])){
+    $email = mysqli_real_escape_string($conn, $_POST['Email']);
+    $pass = mysqli_real_escape_string($conn, $_POST['password']);
 
     $login_query = "SELECT * FROM login_admin WHERE email='$email' AND pass='$pass'";
-    $login_query_run = mysqli_query($conn,$login_query);
+    $login_query_run = mysqli_query($conn, $login_query);
 
     if(mysqli_num_rows($login_query_run) > 0){
-      $_SESSION['adminLogin']=true;
-      $_SESSION['admin'] = $email;
-      $_SESSION['alert'] = "Welcome to Admin Panel";
-      //header('Location: ../admin/index.php');
-     echo '<script>location.href="../admin_CNC_rahane/index.php"</script>';
+        $_SESSION['adminLogin'] = true;
+        $_SESSION['admin'] = $email;
+        $_SESSION['alert'] = "Welcome to Admin Panel";
+        header('Location: ../admin_CNC_rahane/index.php'); // Use PHP header for redirection
+        exit(); // Make sure to exit after the header redirect
     }
     else{
-        $_SESSION['alert'] = "Invalid Credentials";
-        echo"error";
+        echo "<script>alert('Invalid Credentials');</script>";
         header('Location: ../admin_CNC_rahane/includes/login.php');
+        exit();
     }
-  }
+}
 
 
 ?>
